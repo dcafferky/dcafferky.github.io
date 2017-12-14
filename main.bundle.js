@@ -88,7 +88,6 @@ var AddteammemberComponent = (function () {
         alert("added new member");
     };
     AddteammemberComponent.prototype.ngOnInit = function () {
-        // this.editableMember = JSON.parse(localStorage.getItem('TeamMember')) || 0;
         this.editableMember = {
             firstName: ' ',
             lastName: ' ',
